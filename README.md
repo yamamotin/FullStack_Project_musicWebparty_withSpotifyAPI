@@ -13,8 +13,8 @@ pip install -r requirements.txt
 python manage.py runserver
 
 #Install Node.js, Node Modules
-IN /FRONTEND run:
-  npm i
-  npm run build
+IN /FRONTEND run;
+  npm i;
+  npm run build;
 START SERVICE WITH:
-  npm run dev
+  npm run dev;
